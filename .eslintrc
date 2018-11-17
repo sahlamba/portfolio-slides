@@ -8,7 +8,7 @@
       "jsx": true
     }
   },
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "json"],
   "env": {
     "es6": true,
     "node": true

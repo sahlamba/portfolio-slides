@@ -8,9 +8,8 @@
     "dev": "webpack-dev-server --mode development --hot",
     "build": "webpack --mode production",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "clean": "rm -rf node_modules dist",
-    "precommit": "npm run lint"
+    "format": "eslint . --fix",
+    "clean": "rm -rf node_modules dist"
   },
   "author": "thedrumsknight <sahil.lamba95@gmail.com>",
   "license": "UNLICENSED",
@@ -27,12 +26,26 @@
     "css-loader": "^1.0.1",
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-json": "^1.2.1",
     "eslint-plugin-prettier": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "husky": "^1.1.4",
+    "lint-staged": "^8.0.5",
     "prettier": "^1.15.2",
     "style-loader": "^0.23.1",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run build"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,json}": [
+      "npm run format",
+      "git add"
+    ]
   }
 }
