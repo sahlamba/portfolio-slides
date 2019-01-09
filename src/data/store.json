@@ -1,0 +1,19 @@
+{
+  "section": [
+    {
+      "order": 0,
+      "template": "default",
+      "config": {
+        "tooltip": "Education",
+        "color": "#fff"
+      }
+    },
+    {
+      "order": 1,
+      "template": "default",
+      "config": {
+        "tooltip": "Work Experience"
+      }
+    }
+  ]
+}

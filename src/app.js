@@ -1,15 +1,7 @@
 import React from 'react';
 
-import Site from './containers/site';
+import Site from './containers/site-builder';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return <Site />;
-  }
-}
+const App = () => <Site />;
 
 export default App;

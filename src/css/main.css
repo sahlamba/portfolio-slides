@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.loading-title {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Overrides */
+#fp-nav ul li .fp-tooltip {
+  color: #333 !important;
+  background: #fff;
+  padding: 1px 5px;
+  border: 0;
+  border-radius: 3px;
+}
+
+/* Template styles */
+.template-wrapper {
+  max-width: 80%;
+  margin: 0 10%;
+}
