@@ -54,9 +54,14 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,json}": [
-      "npm run format",
-      "git add"
+    "linters": {
+      "*.{js,jsx,json}": [
+        "npm run format",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "bundle.js"
     ]
   }
 }
