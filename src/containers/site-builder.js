@@ -19,7 +19,7 @@ class Site extends React.Component {
   }
 
   componentDidMount() {
-    getAllSectionData(3000) // intended 3 second delay
+    getAllSectionData(/*3000*/) // intended 3 second delay
       .then(sectionData => {
         this.setState({ sectionData });
       })
