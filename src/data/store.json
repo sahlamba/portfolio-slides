@@ -14,19 +14,19 @@
         "imagePath": "css/resources/8270471.jpg",
         "social": [
           {
-            "display": "email",
+            "display": "envelope",
             "href": "mailto:ranamihir@nyu.edu"
           },
           {
-            "display": "github",
+            "display": ["fab", "github"],
             "href": "https://github.com/ranamihir"
           },
           {
-            "display": "linkedin",
+            "display": ["fab", "linkedin"],
             "href": "https://www.linkedin.com/in/ranamihir/"
           }
         ],
-        "bio": "Learning Visual Embeddings for Deep Reinforcement Learning, Fall 2018. [code] (Advisor: Rob Fergus) Neural Machine Translation Systems for Vietnamese → English and Chinese → English, Fall 2018. (Advisor: Kyunghyun Cho) Generatively Removing Photobombers, Spring 2018. [pdf] [code] (Advisor: Yann LeCun & Alfredo Canziani) Toxic Comment Classification, Spring 2018. [pdf] [code] (Advisor: David S. Rosenberg & Kurt Miller) Predicting Prison Parole Board Decisions, Fall 2017. [pdf] [code] (Advisor: Brian D'alessandro)"
+        "bio": ""
       }
     },
     {

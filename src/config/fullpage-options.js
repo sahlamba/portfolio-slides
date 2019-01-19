@@ -5,7 +5,7 @@ const fullpageOptions = {
   // navigationTooltips: ['First Page', 'Second Page'],
   // anchors: ['firstPage', 'secondPage'],
   // sectionsColor: ['#FFF', '#CCC'],
-  // scrollOverflow: true,
+  scrollOverflow: true,
 };
 
 const getFullpageOptionsConfig = () => ({ ...fullpageOptions });

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 
-import { Email } from '@material-ui/icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import withSectionWrapper from './with-section-wrapper';
 
@@ -19,7 +19,6 @@ const styles = {
   },
   _size_35: {
     width: '35%',
-    padding: '20px',
   },
   _size_100: {
     width: '100%',
@@ -39,7 +38,7 @@ const styles = {
     fontSize: 24,
   },
   _subtitle2: {
-    color: '#999',
+    color: '#888',
     fontSize: 18,
   },
   _social: {
@@ -56,11 +55,11 @@ const styles = {
   _footer: {
     display: 'block',
     textAlign: 'center',
-    position: 'absolute',
-    left: '50%',
-    bottom: 50,
-    padding: 20,
-    marginLeft: '-11px',
+    // position: 'absolute',
+    // left: '50%',
+    // bottom: 50,
+    // marginLeft: '-11px',
+    padding: '40px 20px 20px 20px',
   },
   _align_center: {
     textAlign: 'center',
@@ -89,8 +88,10 @@ const SummaryTemplate = props => {
         <div className={classes._social}>
           {data.social.map((link, idx) => (
             <a className={classes._link_tag} href={link.href} key={idx}>
-              {/* TODO: Dynamic icons, use link.display */}
-              <Email />
+              <FontAwesomeIcon
+                icon={link.display}
+                size={link.size ? link.size : 'lg'}
+              />
             </a>
           ))}
         </div>
@@ -143,7 +144,9 @@ SummaryTemplate.propTypes = {
     social: PropTypes.arrayOf(
       PropTypes.shape({
         href: PropTypes.string.isRequired,
-        display: PropTypes.string.isRequired,
+        display: PropTypes.oneOfType([PropTypes.string, PropTypes.array])
+          .isRequired,
+        size: PropTypes.string,
       })
     ),
     bio: PropTypes.string,
