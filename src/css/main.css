@@ -24,8 +24,9 @@ body {
 
 /* Template styles */
 .template-wrapper {
-  max-width: 80%;
-  margin: 0 10%;
+  width: 60%;
+  max-width: 800px;
+  margin: 0 auto;
   overflow: hidden;
 }
 

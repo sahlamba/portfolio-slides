@@ -9,34 +9,38 @@ import { Email } from '@material-ui/icons';
 import withSectionWrapper from './with-section-wrapper';
 
 const styles = {
-  _size_50: {
+  _inline_block_middle: {
     display: 'inline-block',
     verticalAlign: 'middle',
-    width: '50%',
+  },
+  _size_65: {
+    width: '65%',
+    padding: '20px',
+  },
+  _size_35: {
+    width: '35%',
     padding: '20px',
   },
   _size_100: {
-    display: 'inline-block',
-    verticalAlign: 'middle',
     width: '100%',
     padding: '20px',
   },
   _profile_img: {
-    width: '70%',
+    width: '100%',
     border: 0,
     borderRadius: '50%',
   },
   _title: {
     color: '#444',
-    fontSize: '500%',
+    fontSize: 72,
   },
   _subtitle1: {
     color: '#333',
-    fontSize: '150%',
+    fontSize: 24,
   },
   _subtitle2: {
     color: '#999',
-    fontSize: '140%',
+    fontSize: 18,
   },
   _social: {
     display: 'flex',
@@ -74,7 +78,7 @@ const SummaryTemplate = props => {
 
   return (
     <div className="template-wrapper">
-      <div className={classes._size_50}>
+      <div className={`${classes._size_65} ${classes._inline_block_middle}`}>
         <Typography className={`${classes._title}`}>{data.title}</Typography>
         <Typography className={`${classes._subtitle1} `}>
           {data.subtitle1}
@@ -91,13 +95,17 @@ const SummaryTemplate = props => {
           ))}
         </div>
       </div>
-      <div className={`${classes._size_50} ${classes._align_center}`}>
+      <div
+        className={`${classes._size_35} ${classes._inline_block_middle} ${
+          classes._align_center
+        }`}
+      >
         <img
           src={data.imagePath ? require('../../' + data.imagePath) : null}
           className={classes._profile_img}
         />
       </div>
-      <div className={classes._size_100}>
+      <div className={`${classes._size_100} ${classes._inline_block_middle}`}>
         {data.bio ? (
           <Typography
             className={`${classes._subtitle1} ${classes._margin_b20}`}
