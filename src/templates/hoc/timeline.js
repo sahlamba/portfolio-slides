@@ -43,6 +43,7 @@ const styles = {
     marginBottom: 2,
     color: '#555',
     fontSize: 14,
+    whiteSpace: 'pre-wrap',
   },
   _tags: {
     padding: 10,
@@ -93,7 +94,7 @@ TimelineTemplate.propTypes = {
     pageTitle: PropTypes.string.isRequired,
     events: PropTypes.arrayOf(
       PropTypes.shape({
-        icon: PropTypes.string,
+        icon: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
         date: PropTypes.string,
         title: PropTypes.string,
         subtitle: PropTypes.string,

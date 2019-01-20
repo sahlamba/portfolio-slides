@@ -26,6 +26,10 @@ const TagList = props => {
   );
 };
 
+TagList.defaultProps = {
+  tags: [],
+};
+
 TagList.propTypes = {
   classes: PropTypes.object.isRequired,
   tags: PropTypes.arrayOf(
@@ -35,7 +39,7 @@ TagList.propTypes = {
       background: PropTypes.string,
       color: PropTypes.string,
     })
-  ).isRequired,
+  ),
 };
 
 export default withStyles(styles)(TagList);

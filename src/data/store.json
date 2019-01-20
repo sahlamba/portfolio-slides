@@ -58,9 +58,43 @@
             "icon": "graduation-cap",
             "date": "Batch of 2017",
             "title": "Indian Institute of Technology Roorkee, India",
-            "subtitle": "B. Tech., Major: Mechanical Engg, Minor: Computer Science",
-            "desc": "",
-            "tags": []
+            "subtitle": "B. Tech., Major: Mechanical Engg, Minor: Computer Science"
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "template": "timeline",
+      "config": {
+        "tooltip": "Experience",
+        "color": "#F6F6F6"
+      },
+      "data": {
+        "pageTitle": "Experience",
+        "events": [
+          {
+            "icon": ["fab", "tripadvisor"],
+            "date": "Summer 2018",
+            "title": "Machine Learning Scientist Intern",
+            "subtitle": "Experiences & Rentals, TripAdvisor LLC"
+          },
+          {
+            "icon": "atom",
+            "date": "Summer 2016",
+            "title": "Data Scientist and Software Engineering Intern",
+            "subtitle": "Fuzzy Logix LLC"
+          },
+          {
+            "icon": "chart-line",
+            "date": "Summer 2015",
+            "title": "Data Scientist Intern",
+            "subtitle": "AdWyze"
+          },
+          {
+            "icon": "chalkboard-teacher",
+            "title": "Graduate Teaching Assistant",
+            "desc": "• Yann LeCun for Deep Learning (Spring 2019)\n• Rob Fergus for Computer Vision (Fall 2018)\n• David S. Rosenberg for Machine Learning (Spring 2019)\n• Brian D'alessandro for Introduction to Data Science (Fall 2018)"
           }
         ]
       }
