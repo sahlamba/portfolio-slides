@@ -5,7 +5,7 @@
       "template": "summary",
       "config": {
         "tooltip": "Introduction",
-        "color": "#fff"
+        "color": "#FFF"
       },
       "data": {
         "title": "Mihir Rana",
@@ -31,9 +31,38 @@
     },
     {
       "order": 1,
-      "template": "default",
+      "template": "timeline",
       "config": {
-        "tooltip": "Hello, world!"
+        "tooltip": "Education",
+        "color": "#F0F0F0"
+      },
+      "data": {
+        "pageTitle": "Education",
+        "events": [
+          {
+            "icon": "university",
+            "date": "2019 (Expected)",
+            "title": "New York University, NY",
+            "subtitle": "Master of Science (Data Science)",
+            "desc": "",
+            "tags": [
+              {
+                "text": "",
+                "link": "",
+                "background": "",
+                "color": ""
+              }
+            ]
+          },
+          {
+            "icon": "graduation-cap",
+            "date": "Batch of 2017",
+            "title": "Indian Institute of Technology Roorkee, India",
+            "subtitle": "B. Tech., Major: Mechanical Engg, Minor: Computer Science",
+            "desc": "",
+            "tags": []
+          }
+        ]
       }
     }
   ]
