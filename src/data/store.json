@@ -41,24 +41,17 @@
         "events": [
           {
             "icon": "university",
-            "date": "2019 (Expected)",
+            "date": "Expected - May 2019",
             "title": "New York University, NY",
-            "subtitle": "Master of Science (Data Science)",
-            "desc": "",
-            "tags": [
-              {
-                "text": "",
-                "link": "",
-                "background": "",
-                "color": ""
-              }
-            ]
+            "subtitle": "Master of Science (Data Science) | GPA: 3.94 / 4.0",
+            "desc": "• Relevant Coursework: Deep Learning, Computer Vision, Natural Language Processing, Reinforcement Learning, Machine Learning, Variational Inference, Big Data, Optimization, Probability and Statistics\n• Teaching Assistant for Deep Learning (Yann LeCun), Computer Vision (Rob Fergus), Machine Learning (David Rosenberg), and Introduction to Data Science (Brian D’alessandro)"
           },
           {
             "icon": "graduation-cap",
-            "date": "Batch of 2017",
+            "date": "July 2013 - May 2017",
             "title": "Indian Institute of Technology Roorkee, India",
-            "subtitle": "B. Tech., Major: Mechanical Engg, Minor: Computer Science"
+            "subtitle": "B. Tech., Major: Mechanical Engg, Minor: Computer Science | GPA: 4.0 / 4.0",
+            "desc": "• Relevant Coursework: Design and Analysis of Algorithms, Data Structures, Database Management Systems, Discrete Structures, Computer Architecture and Microprocessors, Numerical Optimization, Numerical Algorithms, Calculus"
           }
         ]
       }
@@ -75,26 +68,78 @@
         "events": [
           {
             "icon": ["fab", "tripadvisor"],
-            "date": "Summer 2018",
-            "title": "Machine Learning Scientist Intern",
-            "subtitle": "Experiences & Rentals, TripAdvisor LLC"
+            "date": "June - August 2018",
+            "title": "TripAdvisor LLC",
+            "subtitle": "Machine Learning Scientist Intern (Experiences & Rentals)",
+            "desc": "• Built models to automatically map 100k+ products on Viator with their relevant attractions on TripAdvisor\n• Final 3-class classification NLP model comprising fuzzy string matching similarities, n-gram similarities (soft-tfidf, monge-elkan) and features based on Named Entity Recognition and truncated SVD achieved accuracy of 83%\n• Impressions-to-bookings list-wise learning-to-rank (LTR) model to sort order of products gave MRR of 0.58 and mAP@5 of 0.6",
+            "tags": [
+              {
+                "text": "Python"
+              },
+              {
+                "text": "PyTorch"
+              },
+              {
+                "text": "sklearn"
+              },
+              {
+                "text": "Google BigQuery"
+              },
+              {
+                "text": "Hive"
+              },
+              {
+                "text": "Git"
+              }
+            ]
           },
           {
             "icon": "atom",
-            "date": "Summer 2016",
-            "title": "Data Scientist and Software Engineering Intern",
-            "subtitle": "Fuzzy Logix LLC"
+            "date": "May - July 2016",
+            "title": "Fuzzy Logix LLC",
+            "subtitle": "Data Scientist Intern (North Carolina Team)",
+            "desc": "• Developed apps and interactive visualizations for regression, classification, and clustering algorithms on Teradata AppCenter\n• Applied ensembles to analyze datasets in diverse domains and derived key business insights for better returns",
+            "tags": [
+              {
+                "text": "Python"
+              },
+              {
+                "text": "C++"
+              },
+              {
+                "text": "Java"
+              },
+              {
+                "text": "AsterSQL"
+              },
+              {
+                "text": "D3.js"
+              },
+              {
+                "text": "Chart.js"
+              }
+            ]
           },
           {
             "icon": "chart-line",
-            "date": "Summer 2015",
-            "title": "Data Scientist Intern",
-            "subtitle": "AdWyze"
-          },
-          {
-            "icon": "chalkboard-teacher",
-            "title": "Graduate Teaching Assistant",
-            "desc": "• Yann LeCun for Deep Learning (Spring 2019)\n• Rob Fergus for Computer Vision (Fall 2018)\n• David S. Rosenberg for Machine Learning (Spring 2019)\n• Brian D'alessandro for Introduction to Data Science (Fall 2018)"
+            "date": "May - July 2015",
+            "title": "AdWyze (Official Marketing Partner of Facebook)",
+            "subtitle": "Data Scientist and Software Developer Intern",
+            "desc": "• Contributed to automated data handling and predictive modeling of Facebook ad budget strategies\n• Increased short-term revenues for AdWyze and its clients by nearly 3% based on recommendations from predictions\n• Made significant contributions to ad campaign bulk edits, reduced the loading time of pages, etc.",
+            "tags": [
+              {
+                "text": "Python"
+              },
+              {
+                "text": "Ruby (Rails)"
+              },
+              {
+                "text": "PostgreSQL"
+              },
+              {
+                "text": "AngularJS"
+              }
+            ]
           }
         ]
       }
