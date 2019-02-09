@@ -43,15 +43,25 @@
             "icon": "university",
             "date": "Expected - May 2019",
             "title": "New York University, NY",
-            "subtitle": "Master of Science (Data Science) | GPA: 3.94 / 4.0",
-            "desc": "• Relevant Coursework: Deep Learning, Computer Vision, Natural Language Processing, Reinforcement Learning, Machine Learning, Variational Inference, Big Data, Optimization, Probability and Statistics\n• Teaching Assistant for Deep Learning (Yann LeCun), Computer Vision (Rob Fergus), Machine Learning (David Rosenberg), and Introduction to Data Science (Brian D’alessandro)"
+            "subtitle": "Master of Science (Data Science)",
+            "desc": "• Relevant Coursework: Deep Learning, Computer Vision, Natural Language Processing, Reinforcement Learning, Machine Learning, Variational Inference, Big Data, Optimization, Probability and Statistics\n• Teaching Assistant for Deep Learning (Yann LeCun), Computer Vision (Rob Fergus), Machine Learning (David Rosenberg), and Introduction to Data Science (Brian D’alessandro)",
+            "tags": [
+              {
+                "text": "GPA: 3.94 / 4.0"
+              }
+            ]
           },
           {
             "icon": "graduation-cap",
             "date": "July 2013 - May 2017",
             "title": "Indian Institute of Technology Roorkee, India",
-            "subtitle": "B. Tech., Major: Mechanical Engg, Minor: Computer Science | GPA: 4.0 / 4.0",
-            "desc": "• Relevant Coursework: Design and Analysis of Algorithms, Data Structures, Database Management Systems, Discrete Structures, Computer Architecture and Microprocessors, Numerical Optimization, Numerical Algorithms, Calculus"
+            "subtitle": "B. Tech., Major: Mechanical Engg, Minor: Computer Science",
+            "desc": "• Relevant Coursework: Design and Analysis of Algorithms, Data Structures, Database Management Systems, Discrete Structures, Computer Architecture and Microprocessors, Numerical Optimization, Numerical Algorithms, Calculus",
+            "tags": [
+              {
+                "text": "GPA: 4.0 / 4.0"
+              }
+            ]
           }
         ]
       }
