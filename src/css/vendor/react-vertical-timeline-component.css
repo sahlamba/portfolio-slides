@@ -180,8 +180,21 @@
   margin-left: 60px;
   background: #fff;
   border-radius: 0.25em;
-  padding: 1em;
+  padding: 0;
   box-shadow: 0 3px 0 #ddd;
+  cursor: pointer;
+}
+.vertical-timeline-element-content:hover {
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  -ms-transition: all 100ms ease-in;
+  -o-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .vertical-timeline-element--no-children .vertical-timeline-element-content {
   background: 0 0;
