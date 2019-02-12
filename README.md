@@ -2,13 +2,15 @@
 
 ### Setup
 
+This project requires `node v8` and `npm v6`.
+
 ```bash
 # Clone the repo
 git clone git@github.com:thedrumsknight/portfolio-slides.git
 cd portfolio-slides
 
 # Install deps
-npm run install
+npm install
 ```
 
 ### Run the app locally
