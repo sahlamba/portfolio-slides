@@ -1,4 +1,4 @@
-# portfolio-slides
+# ranamihir.github.io
 
 ### Setup
 
@@ -6,8 +6,8 @@ This project requires `node v8` and `npm v6`.
 
 ```bash
 # Clone the repo
-git clone git@github.com:thedrumsknight/portfolio-slides.git
-cd portfolio-slides
+git clone git@github.com:ranamihir/ranamihir.github.io.git
+cd ranamihir.github.io
 
 # Install deps
 npm install
