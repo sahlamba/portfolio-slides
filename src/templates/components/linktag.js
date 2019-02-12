@@ -17,25 +17,38 @@ const styles = {
     color: '#fff',
   },
   _link: {
-    textDecoration: 'none',
+    display: 'inline-block',
+    border: 0,
+    borderRadius: 20,
+    padding: '2px 8px',
+    background: '#f0f0f0',
+    textDecoration: 'underline',
+    '&:hover': {
+      background: '#eaeaea',
+    },
+  },
+  _link_text: {
+    color: '#333',
+    fontFamily: 'arial !important',
   },
 };
 
 const LinkTag = props => {
   const { style, classes, text, link, background, color } = props;
-  return (
-    <div className={classes._tag_wrapper} style={{ background, ...style }}>
-      {link ? (
-        <a href={link} className={classes._link}>
-          <Typography className={classes._tag_text} style={{ color }}>
-            {text}
-          </Typography>
-        </a>
-      ) : (
-        <Typography className={classes._tag_text} style={{ color }}>
+  if (link && link.length > 0) {
+    return (
+      <a href={link} className={classes._link} style={{ ...style }}>
+        <Typography className={classes._link_text} style={{ color }}>
           {text}
         </Typography>
-      )}
+      </a>
+    );
+  }
+  return (
+    <div className={classes._tag_wrapper} style={{ background, ...style }}>
+      <Typography className={classes._tag_text} style={{ color }}>
+        {text}
+      </Typography>
     </div>
   );
 };
