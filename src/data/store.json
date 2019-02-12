@@ -26,7 +26,10 @@
             "href": "https://www.linkedin.com/in/ranamihir/"
           }
         ],
-        "bio": ""
+        "bio": {
+          "title": "Research Interests",
+          "body": "Computer Vision, Representation learning, Natural Language Understanding"
+        }
       }
     },
     {
@@ -152,6 +155,114 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "order": 3,
+      "template": "timeline",
+      "config": {
+        "tooltip": "Projects",
+        "color": "#F6F6F6"
+      },
+      "data": {
+        "pageTitle": "Projects",
+        "events": [
+          {
+            "icon": "language",
+            "date": "September - December 2018",
+            "title": "Neural Machine Translation System",
+            "subtitle": "Prof. Kyunghyun Cho, New York University and Facebook AI Research",
+            "desc": "• Built NMT system for translating Chinese (zh) to English (en) and Vietnamese (vi) to English\n• Used bidirectional LSTM and Convolutional neural networks for encoder-decoder architecture with Luong attention mechanism\n• Best model attained BLEU scores of 24 and 19 with Beam Search on IWSLT 2015 vi → en and zh → en datasets",
+            "tags": [
+              {
+                "text": "PyTorch"
+              },
+              {
+                "text": "Git"
+              },
+              {
+                "text": "[code]",
+                "link": "https://github.com/avidkenil/NLP_Project/"
+              }
+            ]
+          },
+          {
+            "icon": "brain",
+            "date": "September - December 2018",
+            "title": "Visual Embeddings for Reinforcement Learning",
+            "subtitle": "Prof. Rob Fergus, New York University and Facebook AI Research",
+            "desc": "• Trained RL agent to solve hard exploration mazes by watching few expert demonstration videos\n• Used self-supervised Computer Vision task to generate embeddings and used them to guide agent via Imitation Learning",
+            "tags": [
+              {
+                "text": "PyTorch"
+              },
+              {
+                "text": "TensorFlow"
+              },
+              {
+                "text": "Git"
+              },
+              {
+                "text": "[code]",
+                "link": "https://github.com/ranamihir/visual_embeddings_for_rl"
+              },
+              {
+                "text": "[demo]",
+                "link": "https://github.com/ranamihir/visual_embeddings_for_rl/blob/master/material/mazes.gif"
+              }
+            ]
+          },
+          {
+            "icon": "camera-retro",
+            "date": "February - May 2018",
+            "title": "Generatively Removing Photobomers",
+            "subtitle": "Prof. Yann LeCun, New York University and Facebook AI Research",
+            "desc": "• Developed a pipeline to efficiently remove photobombers in images and replace them with background\n• Model used Mask-RCNN using Facebook’s Detectron for instance segmentation and Deep Image Prior for inpainting",
+            "tags": [
+              {
+                "text": "PyTorch"
+              },
+              {
+                "text": "Git"
+              },
+              {
+                "text": "[code]",
+                "link": "https://github.com/ranamihir/dl_project"
+              }
+            ]
+          },
+          {
+            "icon": "comments",
+            "date": "February - May 2018",
+            "title": "Toxic Comment Classification",
+            "subtitle": "Prof. David S. Rosenberg, New York University",
+            "desc": "• Built multi-class multi-label models to classify Wikipedia comments into different levels of toxicity and profanity\n• Achieved macro-AUC of 0.98 with fastText; 0.97 with ensemble of XGBoost and Naive-Bayes SVM (self-implemented)",
+            "tags": [
+              {
+                "text": "Python (sklearn)"
+              },
+              {
+                "text": "Git"
+              },
+              {
+                "text": "[code]",
+                "link": "https://github.com/ranamihir/ml_project"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order": 4,
+      "template": "default",
+      "config": {
+        "tooltip": "Skills & Achievements",
+        "color": "#FFF"
+      },
+      "data": {
+        "pageTitle": "Skills & Achievements",
+        "content": "• Computer Languages: Python, C++, Java, R, SQL, Ruby, JavaScript (Node, Angular, D3), Shell scripting, Git, LaTeX\n\n• Tools and Technologies: PyTorch, TensorFlow, scikit-learn, Spark, Hive, Hadoop, Google BigQuery, OpenAI Gym, TensorBoard\n\n• Scholarships: KVPY Fellowship from IISc Bangalore, Coca-Cola Scholarship (Chemistry), C.V. Narasimhan Scholarship (Physics)\n\n• Co-/Extra-curricular Activities: Co-founded Data Science Group at IIT-R to conduct lectures, research talks, etc.; Ranked in top 10 in several ML competitions on AnalyticsVidhya; Head of Department at Team KNOx (Automobile Manufacturing Group)"
       }
     }
   ]
