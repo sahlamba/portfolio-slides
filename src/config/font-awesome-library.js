@@ -15,6 +15,10 @@ import {
   faAtom,
   faChartLine,
   faChalkboardTeacher,
+  faLanguage,
+  faBrain,
+  faCameraRetro,
+  faComments,
 } from '@fortawesome/free-solid-svg-icons';
 
 const availableIcons = [
@@ -31,6 +35,10 @@ const availableIcons = [
   faAtom,
   faChartLine,
   faChalkboardTeacher,
+  faLanguage,
+  faBrain,
+  faCameraRetro,
+  faComments,
 ];
 
 library.add(...availableIcons);

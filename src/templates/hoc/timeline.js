@@ -35,7 +35,7 @@ class TimelineTemplate extends React.Component {
   }
 
   openMoreInfoModal(e, content) {
-    e.preventDefault();
+    // e.preventDefault();
     this.setState({ openModal: true, modalContent: content });
   }
 
