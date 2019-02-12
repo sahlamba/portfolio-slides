@@ -106,16 +106,18 @@ const SummaryTemplate = props => {
           className={classes._profile_img}
         />
       </div>
-      <div className={`${classes._size_100} ${classes._inline_block_middle}`}>
-        {data.bio ? (
+      {data.bio && data.bio.title && data.bio.body ? (
+        <div className={`${classes._size_100} ${classes._inline_block_middle}`}>
           <Typography
             className={`${classes._subtitle1} ${classes._margin_b20}`}
           >
-            Biography
+            {data.bio.title}
           </Typography>
-        ) : null}
-        <Typography className={classes._text_justify}>{data.bio}</Typography>
-      </div>
+          <Typography className={classes._text_justify}>
+            {data.bio.body}
+          </Typography>
+        </div>
+      ) : null}
       <div className={classes._footer}>
         <div className="icon-scroll" />
       </div>
@@ -149,7 +151,10 @@ SummaryTemplate.propTypes = {
         size: PropTypes.string,
       })
     ),
-    bio: PropTypes.string,
+    bio: PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      body: PropTypes.string.isRequired,
+    }),
   }),
 };
 
