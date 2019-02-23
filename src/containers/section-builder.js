@@ -47,13 +47,15 @@ const getFullpageOption = optionName => {
   }
 };
 
-const buildSectionViews = sectionList =>
+const buildSectionViews = (sectionList, siteContext) =>
   sectionList.length > 0
     ? sectionList.map(templateData => {
         const { template, order, data } = templateData;
         if (template) {
           return getTemplate(template, order, {
             data,
+            order,
+            siteContext,
           });
         }
         return getTemplate('empty', templateData.order);
