@@ -1,4 +1,7 @@
 {
+  "siteContext": {
+    "style": "1-page"
+  },
   "section": [
     {
       "order": 0,

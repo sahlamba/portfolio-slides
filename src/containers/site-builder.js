@@ -30,9 +30,13 @@ class Site extends React.Component {
 
   render() {
     const { sectionData } = this.state;
-    const { section } = sectionData;
+    const { siteContext, section } = sectionData;
     if (!section || section.length < 1) {
       return <div className="loading-title">Loading...</div>;
+    }
+
+    if (siteContext.style === '1-page') {
+      return <>{buildSectionViews(section, siteContext)}</>;
     }
 
     const fullpageOptions = {
