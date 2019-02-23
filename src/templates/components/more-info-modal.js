@@ -9,7 +9,7 @@ import TimelineContent from './timeline-template-content';
 const styles = {
   _wrapper: {
     position: 'absolute',
-    width: 600,
+    width: 800,
     top: '50%',
     left: '50%',
     padding: 12,
