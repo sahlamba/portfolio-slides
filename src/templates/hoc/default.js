@@ -8,7 +8,9 @@ const DefaultTemplate = props => {
 
   return (
     <div className="template-wrapper">
-      <p style={{ color: '#444', fontSize: 36 }}>{data.pageTitle}</p>
+      <p style={{ color: '#444', fontSize: 36, marginBottom: 24 }}>
+        {data.pageTitle}
+      </p>
       <p style={{ color: '#555', whiteSpace: 'pre-wrap' }}>{data.content}</p>
     </div>
   );
