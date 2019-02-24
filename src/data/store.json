@@ -276,7 +276,7 @@
             "icon": "pencil-ruler",
             "date": "July 2016 - May 2017",
             "title": "Data Driven Modeling of Composites",
-            "subtitle": "Advised by Brian D'alessandro, New York University",
+            "subtitle": "Advised by Siladitya Pal, IIT Roorkee",
             "desc": "• Designed composite materials by developing algorithmic frameworks from simulated data to predict and recommend properties\n• Employed ML algorithms (e.g., XGBoost, SVM) and Surrogate Modeling techniques with self-engineered features\n• Model achieved 99.6% accuracy and reduced average computation time from 2-3 days to 10 minutes",
             "tags": [
               {
