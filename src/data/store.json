@@ -1,4 +1,7 @@
 {
+  "siteContext": {
+    "style": "1-page"
+  },
   "section": [
     {
       "order": 0,
@@ -168,25 +171,6 @@
         "pageTitle": "Projects",
         "events": [
           {
-            "icon": "language",
-            "date": "September - December 2018",
-            "title": "Neural Machine Translation System",
-            "subtitle": "Advised by Kyunghyun Cho, New York University and Facebook AI Research",
-            "desc": "• Built NMT system for translating Chinese (zh) to English (en) and Vietnamese (vi) to English\n• Used bidirectional LSTM and Convolutional neural networks for encoder-decoder architecture with Luong attention mechanism\n• Best model attained BLEU scores of 24 and 19 with Beam Search on IWSLT 2015 vi → en and zh → en datasets",
-            "tags": [
-              {
-                "text": "PyTorch"
-              },
-              {
-                "text": "Git"
-              },
-              {
-                "text": "code",
-                "link": "https://github.com/avidkenil/NLP_Project/"
-              }
-            ]
-          },
-          {
             "icon": "brain",
             "date": "September - December 2018",
             "title": "Visual Embeddings for Reinforcement Learning",
@@ -209,6 +193,25 @@
               {
                 "text": "demo",
                 "link": "https://github.com/ranamihir/visual_embeddings_for_rl/blob/master/material/mazes.gif"
+              }
+            ]
+          },
+          {
+            "icon": "language",
+            "date": "September - December 2018",
+            "title": "Neural Machine Translation System",
+            "subtitle": "Advised by Kyunghyun Cho, New York University and Facebook AI Research",
+            "desc": "• Built NMT system for translating Chinese (zh) to English (en) and Vietnamese (vi) to English\n• Used bidirectional LSTM and Convolutional neural networks for encoder-decoder architecture with Luong attention mechanism\n• Best model attained BLEU scores of 24 and 19 with Beam Search on IWSLT 2015 vi → en and zh → en datasets",
+            "tags": [
+              {
+                "text": "PyTorch"
+              },
+              {
+                "text": "Git"
+              },
+              {
+                "text": "code",
+                "link": "https://github.com/avidkenil/NLP_Project/"
               }
             ]
           },
