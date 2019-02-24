@@ -1,6 +1,7 @@
 {
   "siteContext": {
-    "style": "1-page"
+    "style": "1-page",
+    "showHeader": true
   },
   "section": [
     {

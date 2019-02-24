@@ -1,13 +1,6 @@
 import { DEFAULT_COLOR } from '../config/fullpage-options';
-
 import { getTemplate } from '../templates/provider';
-
-const urlify = text =>
-  text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '-')
-    .replace(/^-+|-+$/g, '');
+import { convertStringToValidId } from '../containers/utils';
 
 const getNavigationTooltips = sectionList =>
   sectionList.length > 0
@@ -20,7 +13,7 @@ const getAnchors = sectionList =>
   sectionList.length > 0
     ? sectionList.map(section =>
         section.config && section.config.tooltip
-          ? urlify(section.config.tooltip)
+          ? convertStringToValidId(section.config.tooltip)
           : `${section.order}`
       )
     : [];
@@ -50,9 +43,10 @@ const getFullpageOption = optionName => {
 const buildSectionViews = (sectionList, siteContext) =>
   sectionList.length > 0
     ? sectionList.map(templateData => {
-        const { template, order, data } = templateData;
+        const { template, order, config, data } = templateData;
         if (template) {
           return getTemplate(template, order, {
+            config,
             data,
             order,
             siteContext,

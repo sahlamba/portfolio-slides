@@ -1,21 +1,30 @@
 import React from 'react';
+import { convertStringToValidId } from '../../containers/utils';
 
 const withSectionWrapper = TemplateComponent => props => {
-  const { order, siteContext } = props;
+  const { config, order, siteContext } = props;
 
-  let styles = {};
   if (siteContext && siteContext.style === '1-page') {
-    styles = {
+    const styles = {
       display: 'flex',
       alignItems: 'center',
-      minHeight: '100vh',
+      minHeight: '80vh',
       padding: '40px 0',
       backgroundColor: order % 2 ? '#F0F0F0' : '#FAFAFA',
     };
+    return (
+      <div
+        className="section"
+        id={`${convertStringToValidId(config.tooltip)}`}
+        style={styles}
+      >
+        <TemplateComponent {...props} />
+      </div>
+    );
   }
 
   return (
-    <div className="section" style={styles}>
+    <div className="section">
       <TemplateComponent {...props} />
     </div>
   );
