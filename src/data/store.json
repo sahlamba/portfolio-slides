@@ -12,7 +12,7 @@
       },
       "data": {
         "title": "Mihir Rana",
-        "subtitle1": "MS in Data Science Candidate",
+        "subtitle1": "Master's in Data Science Candidate",
         "subtitle2": "NYU Center for Data Science",
         "imagePath": "css/resources/8270471.jpg",
         "social": [
@@ -31,7 +31,7 @@
         ],
         "bio": {
           "title": "Research Interests",
-          "body": "Computer Vision, Representation learning, Natural Language Understanding"
+          "body": "Computer Vision, Reinforcement Learning, Imitation Learning, Natural Language Reasoning and Understanding"
         }
       }
     },
@@ -50,7 +50,7 @@
             "date": "Expected - May 2019",
             "title": "New York University, NY",
             "subtitle": "Master of Science (Data Science)",
-            "desc": "• Relevant Coursework: Deep Learning, Computer Vision, Natural Language Processing, Reinforcement Learning, Machine Learning, Variational Inference, Big Data, Optimization, Probability and Statistics\n• Teaching Assistant for Deep Learning (Yann LeCun), Computer Vision (Rob Fergus), Machine Learning (David Rosenberg), and Introduction to Data Science (Brian D’alessandro)",
+            "desc": "• Relevant Coursework: Deep Learning, Computer Vision, Natural Language Processing/Understanding, Reinforcement Learning, Machine Learning, Variational Inference, Big Data, Optimization, Probability and Statistics\n• Teaching Assistant for Deep Learning (Yann LeCun), Computer Vision (Rob Fergus), Machine Learning (David Rosenberg), and Introduction to Data Science (Brian D’alessandro)",
             "tags": [
               {
                 "text": "GPA: 3.94 / 4.0"
@@ -250,6 +250,53 @@
               {
                 "text": "code",
                 "link": "https://github.com/ranamihir/ml_project"
+              }
+            ]
+          },
+          {
+            "icon": "balance-scale",
+            "date": "September - December 2017",
+            "title": "Predicting Prison Parole Board Decisions",
+            "subtitle": "Advised by Brian D'alessandro, New York University",
+            "desc": "• Developed a framework for predicting if a US federal prison inmate will be granted or denied parole based on historic data\n• Ensembling with Logistic Regression and XGBoost achieved an ROC AUC value of 0.71",
+            "tags": [
+              {
+                "text": "Python (sklearn)"
+              },
+              {
+                "text": "Git"
+              },
+              {
+                "text": "code",
+                "link": "https://github.com/ranamihir/intro_to_ds_project"
+              }
+            ]
+          },
+          {
+            "icon": "pencil-ruler",
+            "date": "July 2016 - May 2017",
+            "title": "Data Driven Modeling of Composites",
+            "subtitle": "Advised by Brian D'alessandro, New York University",
+            "desc": "• Designed composite materials by developing algorithmic frameworks from simulated data to predict and recommend properties\n• Employed ML algorithms (e.g., XGBoost, SVM) and Surrogate Modeling techniques with self-engineered features\n• Model achieved 99.6% accuracy and reduced average computation time from 2-3 days to 10 minutes",
+            "tags": [
+              {
+                "text": "Python (sklearn)"
+              },
+              {
+                "text": "opencv"
+              },
+              {
+                "text": "R"
+              },
+              {
+                "text": "SQL"
+              },
+              {
+                "text": "Git"
+              },
+              {
+                "text": "code",
+                "link": "https://github.com/ranamihir/btp"
               }
             ]
           }

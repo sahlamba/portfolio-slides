@@ -37,7 +37,12 @@ const LinkTag = props => {
   const { style, classes, text, link, background, color } = props;
   if (link && link.length > 0) {
     return (
-      <a href={link} className={classes._link} style={{ ...style }}>
+      <a
+        href={link}
+        target="_blank"
+        className={classes._link}
+        style={{ ...style }}
+      >
         <Typography className={classes._link_text} style={{ color }}>
           {text}
         </Typography>
