@@ -88,7 +88,7 @@
             "date": "August 2019 - Present",
             "title": "TripAdvisor LLC",
             "subtitle": "Machine Learning Scientist (Triapdvisor B2C)",
-            "desc": "• Built zero-shot low-resource multi-label NLP classification model to categorize ~360k products into any of 400+ relevant tags\n• Built universal embeddings for all place types (hotels, restaurants, attractions, tours) to reduce downstream task-specific feature engineering and enable better cross-selling sorts and recommendations\n• Developed and maintain an open-sourced lightweight package for all PyTorch related projects deployed in the company",
+            "desc": "• Built zero-shot low-resource multi-label NLP classification model to categorize ~360k products into any of 400+ relevant tags\n• Built universal embeddings for all place types (hotels, restaurants, attractions, tours) to reduce downstream task-specific feature engineering and enable better cross-selling sorts and recommendations\n• Developed and maintain an open-sourced lightweight package for all PyTorch-based projects deployed in the company",
             "tags": [
               {
                 "text": "Python"
@@ -213,6 +213,25 @@
               {
                 "text": "code",
                 "link": "https://github.com/avidkenil/NLP_Project/"
+              }
+            ]
+          },
+          {
+            "icon": "code",
+            "date": "Ongoing",
+            "title": "Pytorch Common",
+            "subtitle": "A lightweight wrapper aimed at taking the burden off of the scientist of writing all the boilerplate code",
+            "desc": "• Make use of Pytorch available to people without in-depth knowledge of it while providing enormous flexibility and support for hardcore users,\n• Heavy under-the-hood optimization for fast- and memory-efficient performance,\n• Ability to change all settings (e.g. model, loss, metrics, devices, hyperparameters, artifact directories, etc.) directly from config.",
+            "tags": [
+              {
+                "text": "PyTorch"
+              },
+              {
+                "text": "Git"
+              },
+              {
+                "text": "code",
+                "link": "https://github.com/ranamihir/pytorch_common"
               }
             ]
           },
